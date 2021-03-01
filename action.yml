@@ -1,14 +1,14 @@
 # https://help.github.com/en/articles/metadata-syntax-for-github-actions
 
-author: 'OskarStark'
+author: 'BenDavison'
 
 branding:
     icon: 'check'
     color: 'blue'
 
-description: 'Use PHP-CS-Fixer via GithubAction.'
+description: 'Use PHP-CS-Fixer-PHP-7.3 via GithubAction.'
 
-name: 'OSKAR-PHP-CS-Fixer'
+name: 'DAVISON-PHP-CS-Fixer'
 
 runs:
     using: 'docker'
