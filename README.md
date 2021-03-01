@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: PHP-CS-Fixer
-      uses: docker://oskarstark/php-cs-fixer-ga
+      uses: docker://benpdavison/php-cs-fixer-php-7.3
 ```
 
 _to use a custom config for example, --diff and --dry-run option:_
@@ -29,7 +29,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: PHP-CS-Fixer
-      uses: docker://oskarstark/php-cs-fixer-ga
+      uses: docker://benpdavison/php-cs-fixer-php-7.3
 +      with:
 +        args: --config=.project.php_cs --diff --dry-run
 ```
@@ -39,11 +39,11 @@ jobs:
 ## Docker
 
 A Docker-Image is built automatically and located here:
-https://hub.docker.com/r/oskarstark/php-cs-fixer-ga
+https://hub.docker.com/r/benpdavison/php-cs-fixer-php-7.3
 
 You can run it in any given directory like this:
 
-`docker run --rm -it -w=/app -v ${PWD}:/app oskarstark/php-cs-fixer-ga:latest`
+`docker run --rm -it -w=/app -v ${PWD}:/app benpdavison/php-cs-fixer-php-7.3:latest`
 
 ## A picture is worth a thousand words
 

@@ -12,4 +12,4 @@ name: 'DAVISON-PHP-CS-Fixer'
 
 runs:
     using: 'docker'
-    image: 'docker://benpdavison/php-cs-fixer-php-7.3:2.18.2'
+    image: 'docker://benpdavison/php-cs-fixer-php-7.3:latest'
